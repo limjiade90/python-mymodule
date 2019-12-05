@@ -11,3 +11,16 @@ df = pd.DataFrame(scores,columns =
                  "Science","Math"])
 
 print (df)
+
+df = pd.DataFrame (
+    {
+        "Gender":["Male","Male","Female","Female","Female"],
+        "Team": [1,2,3,3,1]
+    })
+
+print (df)
+
+import numpy as np
+schools = np.array (["Cambridge","Oxford","Oxford","Cambridge","Oxford"])
+df["School"] = schools
+print (df)
